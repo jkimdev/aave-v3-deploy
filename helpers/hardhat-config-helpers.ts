@@ -98,6 +98,9 @@ export const NETWORKS_RPC_URL: iParamsPerNetwork<string> = {
   [eBaseNetwork.base]: `https://base-mainnet.g.alchemy.com/v2/${getAlchemyKey(
     eBaseNetwork.base
   )}`,
+  [eBaseNetwork.baseSepolia]: `https://base-sepolia.g.alchemy.com/v2/${getAlchemyKey(
+    eBaseNetwork.baseSepolia
+  )}`,
 };
 
 export const LIVE_NETWORKS: iParamsPerNetwork<boolean> = {

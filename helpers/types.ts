@@ -48,6 +48,7 @@ export enum eEthereumNetwork {
 export enum eBaseNetwork {
   base = "base",
   baseGoerli = "base-goerli",
+  baseSepolia = "base-sepolia"
 }
 
 export enum ePolygonNetwork {

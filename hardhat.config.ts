@@ -127,6 +127,7 @@ export default {
       eBaseNetwork.baseGoerli,
       84531
     ),
+    [eBaseNetwork.baseSepolia]: getCommonNetworkConfig(eBaseNetwork.baseSepolia, 84532)
   },
   namedAccounts: {
     ...DEFAULT_NAMED_ACCOUNTS,
