@@ -45,6 +45,7 @@ const func: DeployFunction = async function ({
     contract: "Pool",
     from: deployer,
     args: [addressesProviderAddress],
+    proxy: true,
     libraries: {
       ...commonLibraries,
     },
