@@ -52,6 +52,7 @@ export enum ConfigNames {
   Ethereum = "Ethereum",
   Base = "Base",
   baseGoerli = "base-goerli",
+  baseSepolia = "base-sepolia"
 }
 
 export const getParamPerNetwork = <T>(
